@@ -14,10 +14,6 @@ public class Product {
         this.price = price;
     }
 
-    public Product() {
-        this.id = nextId++;
-    }
-
     public int getId() {
         return id;
     }
